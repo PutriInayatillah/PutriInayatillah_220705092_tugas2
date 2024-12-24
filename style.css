@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px; /* Ukuran font lebih besar */
+    font-family: 'Arial Black', 'Helvetica', sans-serif; /* Font lebih menonjol */
+    color: #333;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #bd5480;
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.btn-edit {
+    background-color: #c1205e;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.btn-delete {
+    background-color: #d57c75;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.search-input {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.search-btn {
+    background-color: #bd5480;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.search-btn:hover {
+    background-color: #9a3d64;
+}
+
